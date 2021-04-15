@@ -1,0 +1,12 @@
+h1,h2{
+    text-align: center;
+    
+  }
+  #image {
+    max-width: 100%;
+    height: auto;  
+  }
+  div,p,#tribute-link{
+     text-align: center;
+  }
+  
