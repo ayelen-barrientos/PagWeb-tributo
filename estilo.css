@@ -1,12 +1,37 @@
-h1,h2{
-    text-align: center;
-    
+header{
+  text-align: center;
+}
+#title{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 50px;
+}
+#tribute-info,#img-caption,#tribute-link{
+  font-family: 'RocknRoll One', sans-serif;
+}
+#imag-div{
+ float: right;
+ width: 50%;
+}
+#image{
+  max-width: 100%;
+  height: auto;  
+  border-radius: 10px;
+}
+body{
+ text-align: center;
+ background: -webkit-linear-gradient(90deg, gray 10%,white  90%);
   }
-  #image {
-    max-width: 100%;
-    height: auto;  
-  }
-  div,p,#tribute-link{
-     text-align: center;
-  }
-  
+
+p{
+  padding: 20px;
+  text-align: justify;
+}
+#img-caption{
+  text-align: center;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: white;
+}
