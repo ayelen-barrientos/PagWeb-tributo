@@ -30,17 +30,20 @@ header{
 
 h3{
   padding: 0px 40px;
+  font-size: 25px;
 }
 .nav-link{
   text-align: left;
   padding: 0px;
+  
+
 }
 .nav-link li{
   list-style: none;
   padding: 5px;
   font: bold 14px verdana;
   display: inline-block;
-  
+  font-family: 'RocknRoll One', sans-serif;
 }
 a{
   color: black;
@@ -79,4 +82,35 @@ h4{
 }
 .letra{
   padding: 0px 10px;
+}
+.formulario{
+  background-color:rgb(214, 213, 213);
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left:80px;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+input,button{
+  margin-bottom:20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'RocknRoll One', sans-serif;
+}
+button:hover{
+  background: -webkit-linear-gradient(90deg, gray 10%,white  90%);
+}
+.fans{
+  background: url("rihanna.png") ;
+  background-size:100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.fansClub{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
